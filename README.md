@@ -44,7 +44,7 @@ Users should be able to:
 
 - [Perfect Pixel (by WellDoneCode)](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - A chrome extension to help get that nearly pixel perfect accuracy. It lets you overlay an image of the website design directly over the actual site (and control its opacity) so that you can quickly compare the differences. I've been finding this very useful when combined with fast reloading as you can iterate extremely fast with UI changes to get it looking just right without having to resort to repeatedly measuring pixel distances (e.g., with [KRuler](https://apps.kde.org/en-gb/kruler/)).
 - [Stack Overflow answer to 'Footer in Next.js'](https://stackoverflow.com/a/69286373) - Helped me with understanding the document structure in Next.js
-- [Custom Document](https://nextjs.org/docs/advanced-features/custom-document) - Next.js has a default Document that is uses for all pages. If you want to override that (to add custom fonts to be available across all pages, for example), the the documentation linked is worth checking.
+- [Custom Document](https://nextjs.org/docs/advanced-features/custom-document) - Next.js has a default Document that is uses for all pages. If you want to override that (e.g., to add custom fonts, avaiable for all pages), the the documentation linked is worth checking.
 
 ## Author
 

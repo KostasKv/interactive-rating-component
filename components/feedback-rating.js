@@ -20,7 +20,7 @@ export default function FeedbackRating({onSubmit}) {
             <div className="bg-medium-grey w-10 h-10 rounded-full flex justify-center items-center sm:w-12 sm:h-12">
                 <Image src="/icon-star.svg" alt="star icon" width="16px" height="16px" ></Image>
             </div>
-            <p className="text-white text-[24px] mt-4 sm:mt-8 normal-case sm:text-[28px] font-bold">How did we do?</p>
+            <h1 className="text-white text-[24px] mt-4 sm:mt-8 normal-case sm:text-[28px] font-bold">How did we do?</h1>
             
             <p className='text-light-grey text-sm leading-[21px] mt-[10px] normal-case sm:text-[15px] sm:leading-6 sm:mt-[6px]'>
                 Please let us know how we did with your support request. All feedback is appreciated

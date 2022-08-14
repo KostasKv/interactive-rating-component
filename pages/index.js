@@ -24,14 +24,12 @@ export default function Home() {
 
         <title>Frontend Mentor | Interactive rating component</title>
       </Head>
-      <main>
-        <div className="flex h-screen w-screen items-center justify-center bg-very-dark-blue">
+      <main className='flex items-center justify-center h-screen min-h-[440px]'>
           <div className="w-[327px] h-[361px] sm:h-[416px] sm:w-[412px] bg-dark-blue p-6 rounded-2xl sm:rounded-[32px] sm:p-8">
             { submitted ? <FeedbackThankYou rating={rating} /> : <FeedbackRating onSubmit={onSubmit}/>}
           </div>
-        </div>
       </main>
-      <footer>
+      <footer className="bg-orange">
         <div className={styles.attribution}>
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
           Coded by <a href="https://www.kostask.com">Kostas Kvietinsas</a>.

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useState } from 'react'
 
 import styles from '../styles/Home.module.css'
@@ -23,10 +22,6 @@ export default function Home() {
 
         <link rel="shortcut icon" type="image/png" sizes="32x32" href="/favicon32x32.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" /> 
-
         <title>Frontend Mentor | Interactive rating component</title>
       </Head>
       <main>
@@ -38,7 +33,7 @@ export default function Home() {
       </main>
       <footer>
         <div className={styles.attribution}>
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
           Coded by <a href="https://www.kostask.com">Kostas Kvietinsas</a>.
         </div>
       </footer>

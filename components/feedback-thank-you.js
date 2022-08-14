@@ -1,9 +1,13 @@
+import Image from 'next/image'
+
 export default function FeedbackThankYou({rating}) {
     console.log("rating is " + rating)
     return (
         <div className="flex flex-col items-center">
-            <img src="illustration-thank-you.svg" alt="" className="w-36 mt-3 sm:w-[162px]"></img>
-            <div class="text-orange text-sm bg-medium-grey py-[6px] px-4 rounded-3xl mt-6 sm:mt-[34px] sm:text-[15px] sm:px-[18px]">You selected {rating} out of 5</div>
+            <div className='h-32 w-32 sm:h-28 sm:w-[162px] sm:mt-3 relative'>
+                <Image src="/illustration-thank-you.svg" alt="phone illustration" layout="fill" objectFit='contain' className=''></Image>
+            </div>
+            <div className="text-orange text-sm bg-medium-grey py-[6px] px-4 rounded-3xl mt-1 sm:mt-[34px] sm:text-[15px] sm:px-[18px]">You selected {rating} out of 5</div>
     
             <h2 className="text-white text-2xl font-bold mt-6 sm:mt-9 sm:text-[27px]">Thank you!</h2>
 

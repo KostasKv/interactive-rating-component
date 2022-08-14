@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function FeedbackRating({onSubmit}) {
@@ -17,7 +18,7 @@ export default function FeedbackRating({onSubmit}) {
     return (
         <div>
             <div className="bg-medium-grey w-10 h-10 rounded-full flex justify-center items-center sm:w-12 sm:h-12">
-                <img src="icon-star.svg" alt="star icon" className="w-[16px]"></img>
+                <Image src="/icon-star.svg" alt="star icon" width="16px" height="16px" ></Image>
             </div>
             <p className="text-white text-[24px] mt-4 sm:mt-8 normal-case sm:text-[28px] font-bold">How did we do?</p>
             
